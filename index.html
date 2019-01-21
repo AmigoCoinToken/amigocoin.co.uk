@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/alertify.min.js"></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/alertify.min.css"/>
+  	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/themes/bootstrap.min.css"/>
 		<link rel="icon" href="/images/logo.png" type="image/png" />
 	</head>
 	<body class="is-preload">
@@ -24,29 +27,30 @@
 					<a href="/wallet/index.html" target="_blank" class="button scrolly">Web Wallet</a>
 					<a href="/whitepaper.pdf" target="_blank" class="button scrolly">Whitepaper</a>
 
-
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="N2XWHEPQ8ANGC">
-					<table>
-					<tr><td><input type="hidden" name="on0" value="Quantity">Quantity</td></tr><tr><td><select name="os0">
-					  <option value="200 AMGC">200 AMGC $100.00 USD</option>
-					  <option value="400 AMGC">400 AMGC $200.00 USD</option>
-					  <option value="600 AMGC">600 AMGC $300.00 USD</option>
-					  <option value="800 AMGC">800 AMGC $400.00 USD</option>
-					  <option value="1000 AMGC">1000 AMGC $500.00 USD</option>
-					  <option value="1200 AMGC">1200 AMGC $600.00 USD</option>
-					  <option value="1400 AMGC">1400 AMGC $700.00 USD</option>
-					  <option value="1600 AMGC">1600 AMGC $800.00 USD</option>
-					  <option value="1800 AMGC">1800 AMGC $900.00 USD</option>
-					  <option value="2000 AMGC">2000 AMGC $1,000.00 USD</option>
-					</select> </td></tr>
-					<tr><td><input type="hidden" name="on1" value="ETHEREUM ADDRESS">ETHEREUM ADDRESS</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-					</table>
-					<input type="hidden" name="currency_code" value="USD">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					</form>
+					<div style="max-width: 300px;">
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="N2XWHEPQ8ANGC">
+						<table>
+						<tr><td><input type="hidden" name="on0" value="Quantity">Quantity</td></tr><tr><td><select name="os0">
+						  <option value="200 AMGC">200 AMGC $100.00 USD</option>
+						  <option value="400 AMGC">400 AMGC $200.00 USD</option>
+						  <option value="600 AMGC">600 AMGC $300.00 USD</option>
+						  <option value="800 AMGC">800 AMGC $400.00 USD</option>
+						  <option value="1000 AMGC">1000 AMGC $500.00 USD</option>
+						  <option value="1200 AMGC">1200 AMGC $600.00 USD</option>
+						  <option value="1400 AMGC">1400 AMGC $700.00 USD</option>
+						  <option value="1600 AMGC">1600 AMGC $800.00 USD</option>
+						  <option value="1800 AMGC">1800 AMGC $900.00 USD</option>
+						  <option value="2000 AMGC">2000 AMGC $1,000.00 USD</option>
+						</select> </td></tr>
+						<tr><td><input type="hidden" name="on1" value="ETHEREUM ADDRESS">ETHEREUM ADDRESS</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+						</form>
+					</div>
 
 
 
